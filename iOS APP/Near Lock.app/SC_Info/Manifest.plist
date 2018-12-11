@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/Near Lock.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>PlugIns/NearLockWidget.appex/SC_Info/NearLockWidget.sinf</string>
+		<string>Watch/Watch5.0.app/PlugIns/Watch5.0 Extension.appex/SC_Info/Watch5.0 Extension.sinf</string>
+		<string>SC_Info/Near Lock.sinf</string>
+	</array>
+</dict>
+</plist>
