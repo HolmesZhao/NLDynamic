@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804D022721BE1B390003A996 /* NSDate+ZWYRequiredDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D022521BE1B390003A996 /* NSDate+ZWYRequiredDate.m */; };
+		804D022821BE1B390003A996 /* NSDate+ZWYRequiredDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D022621BE1B390003A996 /* NSDate+ZWYRequiredDate.h */; };
+		804D022F21BE3B530003A996 /* JX_GCDTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D022D21BE3B530003A996 /* JX_GCDTimerManager.h */; };
+		804D023021BE3B530003A996 /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D022E21BE3B530003A996 /* JX_GCDTimerManager.m */; };
+		804D023421BE607D0003A996 /* ZWYAssistantMenuManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D023221BE607D0003A996 /* ZWYAssistantMenuManager.h */; };
+		804D023521BE607D0003A996 /* ZWYAssistantMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D023321BE607D0003A996 /* ZWYAssistantMenuManager.m */; };
+		804D023A21BE60CA0003A996 /* NSMenuItem+ZWYAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D023821BE60CA0003A996 /* NSMenuItem+ZWYAction.h */; };
+		804D023B21BE60CA0003A996 /* NSMenuItem+ZWYAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D023921BE60CA0003A996 /* NSMenuItem+ZWYAction.m */; };
+		804D023F21BE61980003A996 /* ZWYPluginConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D023D21BE61980003A996 /* ZWYPluginConfig.h */; };
+		804D024021BE61980003A996 /* ZWYPluginConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D023E21BE61980003A996 /* ZWYPluginConfig.m */; };
+		804D024321BE637F0003A996 /* NSMenu+ZWYAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D024121BE637F0003A996 /* NSMenu+ZWYAction.h */; };
+		804D024421BE637F0003A996 /* NSMenu+ZWYAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D024221BE637F0003A996 /* NSMenu+ZWYAction.m */; };
+		804D025021BE6A2A0003A996 /* BRNumberField.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D024C21BE6A2A0003A996 /* BRNumberField.h */; };
+		804D025121BE6A2A0003A996 /* BRNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D024D21BE6A2A0003A996 /* BRNumberFormatter.h */; };
+		804D025221BE6A2A0003A996 /* BRNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D024E21BE6A2A0003A996 /* BRNumberField.m */; };
+		804D025321BE6A2A0003A996 /* BRNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D024F21BE6A2A0003A996 /* BRNumberFormatter.m */; };
+		804D025621BE6C7B0003A996 /* NSWindowController+ZWYAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D025421BE6C7B0003A996 /* NSWindowController+ZWYAction.h */; };
+		804D025721BE6C7B0003A996 /* NSWindowController+ZWYAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D025521BE6C7B0003A996 /* NSWindowController+ZWYAction.m */; };
+		804D025B21BE6CB70003A996 /* ZWYAfterWorkController.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D025821BE6CB70003A996 /* ZWYAfterWorkController.h */; };
+		804D025C21BE6CB70003A996 /* ZWYAfterWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D025921BE6CB70003A996 /* ZWYAfterWorkController.m */; };
+		804D027421BE7B1A0003A996 /* ZWYAfterWorkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D027121BE7B1A0003A996 /* ZWYAfterWorkViewController.h */; };
+		804D027521BE7B1A0003A996 /* ZWYAfterWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804D027221BE7B1A0003A996 /* ZWYAfterWorkViewController.m */; };
+		BB4A3C0E21BAB36700A45E03 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4A3C0D21BAB36700A45E03 /* AntiAntiDebug.m */; };
+		BB4A3C1121BAB36700A45E03 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = BB4A3C1021BAB36700A45E03 /* fishhook.c */; };
+		BB4A3C1321BAB36700A45E03 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4A3C1221BAB36700A45E03 /* fishhook.h */; };
+		BB4A3C1721BAB36700A45E03 /* NLDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4A3C1621BAB36700A45E03 /* NLDynamic.h */; };
+		BB4A3C1921BAB36700A45E03 /* NLDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4A3C1821BAB36700A45E03 /* NLDynamic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		803D55FE21BF47F4001F1DD1 /* ZWYRemoteControlScript.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZWYRemoteControlScript.scpt; sourceTree = "<group>"; };
+		804D022521BE1B390003A996 /* NSDate+ZWYRequiredDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZWYRequiredDate.m"; sourceTree = "<group>"; };
+		804D022621BE1B390003A996 /* NSDate+ZWYRequiredDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZWYRequiredDate.h"; sourceTree = "<group>"; };
+		804D022D21BE3B530003A996 /* JX_GCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX_GCDTimerManager.h; sourceTree = "<group>"; };
+		804D022E21BE3B530003A996 /* JX_GCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX_GCDTimerManager.m; sourceTree = "<group>"; };
+		804D023221BE607D0003A996 /* ZWYAssistantMenuManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWYAssistantMenuManager.h; sourceTree = "<group>"; };
+		804D023321BE607D0003A996 /* ZWYAssistantMenuManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWYAssistantMenuManager.m; sourceTree = "<group>"; };
+		804D023821BE60CA0003A996 /* NSMenuItem+ZWYAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMenuItem+ZWYAction.h"; sourceTree = "<group>"; };
+		804D023921BE60CA0003A996 /* NSMenuItem+ZWYAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMenuItem+ZWYAction.m"; sourceTree = "<group>"; };
+		804D023D21BE61980003A996 /* ZWYPluginConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWYPluginConfig.h; sourceTree = "<group>"; };
+		804D023E21BE61980003A996 /* ZWYPluginConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWYPluginConfig.m; sourceTree = "<group>"; };
+		804D024121BE637F0003A996 /* NSMenu+ZWYAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMenu+ZWYAction.h"; sourceTree = "<group>"; };
+		804D024221BE637F0003A996 /* NSMenu+ZWYAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMenu+ZWYAction.m"; sourceTree = "<group>"; };
+		804D024C21BE6A2A0003A996 /* BRNumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRNumberField.h; sourceTree = "<group>"; };
+		804D024D21BE6A2A0003A996 /* BRNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRNumberFormatter.h; sourceTree = "<group>"; };
+		804D024E21BE6A2A0003A996 /* BRNumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRNumberField.m; sourceTree = "<group>"; };
+		804D024F21BE6A2A0003A996 /* BRNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRNumberFormatter.m; sourceTree = "<group>"; };
+		804D025421BE6C7B0003A996 /* NSWindowController+ZWYAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSWindowController+ZWYAction.h"; sourceTree = "<group>"; };
+		804D025521BE6C7B0003A996 /* NSWindowController+ZWYAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSWindowController+ZWYAction.m"; sourceTree = "<group>"; };
+		804D025821BE6CB70003A996 /* ZWYAfterWorkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWYAfterWorkController.h; sourceTree = "<group>"; };
+		804D025921BE6CB70003A996 /* ZWYAfterWorkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWYAfterWorkController.m; sourceTree = "<group>"; };
+		804D025A21BE6CB70003A996 /* ZWYAfterWorkController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWYAfterWorkController.xib; sourceTree = "<group>"; };
+		804D027121BE7B1A0003A996 /* ZWYAfterWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWYAfterWorkViewController.h; sourceTree = "<group>"; };
+		804D027221BE7B1A0003A996 /* ZWYAfterWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWYAfterWorkViewController.m; sourceTree = "<group>"; };
+		804D027321BE7B1A0003A996 /* ZWYAfterWorkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWYAfterWorkViewController.xib; sourceTree = "<group>"; };
+		BB4A3C0921BAB36700A45E03 /* libNLDynamic.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libNLDynamic.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4A3C0D21BAB36700A45E03 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		BB4A3C1021BAB36700A45E03 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		BB4A3C1221BAB36700A45E03 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		BB4A3C1521BAB36700A45E03 /* put mac app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put mac app here"; path = "TargetApp/put mac app here"; sourceTree = "<group>"; };
+		BB4A3C1621BAB36700A45E03 /* NLDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLDynamic.h; sourceTree = "<group>"; };
+		BB4A3C1821BAB36700A45E03 /* NLDynamic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLDynamic.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB4A3C0521BAB36700A45E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804D022421BE1B2E0003A996 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				804D023121BE60610003A996 /* ZWY */,
+				804D022C21BE3B530003A996 /* JX_GCDTimer */,
+				804D024B21BE6A2A0003A996 /* NumberTF */,
+				804D022621BE1B390003A996 /* NSDate+ZWYRequiredDate.h */,
+				804D022521BE1B390003A996 /* NSDate+ZWYRequiredDate.m */,
+				803D55FE21BF47F4001F1DD1 /* ZWYRemoteControlScript.scpt */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		804D022C21BE3B530003A996 /* JX_GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				804D022D21BE3B530003A996 /* JX_GCDTimerManager.h */,
+				804D022E21BE3B530003A996 /* JX_GCDTimerManager.m */,
+			);
+			name = JX_GCDTimer;
+			path = "../../../Desktop/zwy_git/Reverse/WeChatPlugin-MacOS/WeChatPlugin/Sources/Utils/JX_GCDTimer";
+			sourceTree = "<group>";
+		};
+		804D023121BE60610003A996 /* ZWY */ = {
+			isa = PBXGroup;
+			children = (
+				804D024521BE67410003A996 /* Controller */,
+				804D023721BE60B00003A996 /* Category */,
+				804D023621BE60A40003A996 /* Managers */,
+			);
+			path = ZWY;
+			sourceTree = "<group>";
+		};
+		804D023621BE60A40003A996 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				804D023221BE607D0003A996 /* ZWYAssistantMenuManager.h */,
+				804D023321BE607D0003A996 /* ZWYAssistantMenuManager.m */,
+				804D023D21BE61980003A996 /* ZWYPluginConfig.h */,
+				804D023E21BE61980003A996 /* ZWYPluginConfig.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		804D023721BE60B00003A996 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				804D023821BE60CA0003A996 /* NSMenuItem+ZWYAction.h */,
+				804D023921BE60CA0003A996 /* NSMenuItem+ZWYAction.m */,
+				804D024121BE637F0003A996 /* NSMenu+ZWYAction.h */,
+				804D024221BE637F0003A996 /* NSMenu+ZWYAction.m */,
+				804D025421BE6C7B0003A996 /* NSWindowController+ZWYAction.h */,
+				804D025521BE6C7B0003A996 /* NSWindowController+ZWYAction.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		804D024521BE67410003A996 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				804D025821BE6CB70003A996 /* ZWYAfterWorkController.h */,
+				804D025921BE6CB70003A996 /* ZWYAfterWorkController.m */,
+				804D025A21BE6CB70003A996 /* ZWYAfterWorkController.xib */,
+				804D027121BE7B1A0003A996 /* ZWYAfterWorkViewController.h */,
+				804D027221BE7B1A0003A996 /* ZWYAfterWorkViewController.m */,
+				804D027321BE7B1A0003A996 /* ZWYAfterWorkViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		804D024B21BE6A2A0003A996 /* NumberTF */ = {
+			isa = PBXGroup;
+			children = (
+				804D024C21BE6A2A0003A996 /* BRNumberField.h */,
+				804D024D21BE6A2A0003A996 /* BRNumberFormatter.h */,
+				804D024E21BE6A2A0003A996 /* BRNumberField.m */,
+				804D024F21BE6A2A0003A996 /* BRNumberFormatter.m */,
+			);
+			path = NumberTF;
+			sourceTree = "<group>";
+		};
+		BB4A3BFF21BAB36700A45E03 = {
+			isa = PBXGroup;
+			children = (
+				BB4A3C0B21BAB36700A45E03 /* NLDynamic */,
+				BB4A3C0A21BAB36700A45E03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB4A3C0A21BAB36700A45E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A3C0921BAB36700A45E03 /* libNLDynamic.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB4A3C0B21BAB36700A45E03 /* NLDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				804D022421BE1B2E0003A996 /* Utils */,
+				BB4A3C1621BAB36700A45E03 /* NLDynamic.h */,
+				BB4A3C1821BAB36700A45E03 /* NLDynamic.m */,
+				BB4A3C0C21BAB36700A45E03 /* AntiAntiDebug */,
+				BB4A3C0F21BAB36700A45E03 /* fishhook */,
+				BB4A3C1421BAB36700A45E03 /* TargetApp */,
+			);
+			path = NLDynamic;
+			sourceTree = "<group>";
+		};
+		BB4A3C0C21BAB36700A45E03 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A3C0D21BAB36700A45E03 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		BB4A3C0F21BAB36700A45E03 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A3C1021BAB36700A45E03 /* fishhook.c */,
+				BB4A3C1221BAB36700A45E03 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+		BB4A3C1421BAB36700A45E03 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A3C1521BAB36700A45E03 /* put mac app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB4A3C0621BAB36700A45E03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4A3C1721BAB36700A45E03 /* NLDynamic.h in Headers */,
+				804D024321BE637F0003A996 /* NSMenu+ZWYAction.h in Headers */,
+				804D022F21BE3B530003A996 /* JX_GCDTimerManager.h in Headers */,
+				804D023F21BE61980003A996 /* ZWYPluginConfig.h in Headers */,
+				804D023A21BE60CA0003A996 /* NSMenuItem+ZWYAction.h in Headers */,
+				804D023421BE607D0003A996 /* ZWYAssistantMenuManager.h in Headers */,
+				804D025021BE6A2A0003A996 /* BRNumberField.h in Headers */,
+				804D025B21BE6CB70003A996 /* ZWYAfterWorkController.h in Headers */,
+				804D027421BE7B1A0003A996 /* ZWYAfterWorkViewController.h in Headers */,
+				BB4A3C1321BAB36700A45E03 /* fishhook.h in Headers */,
+				804D025621BE6C7B0003A996 /* NSWindowController+ZWYAction.h in Headers */,
+				804D025121BE6A2A0003A996 /* BRNumberFormatter.h in Headers */,
+				804D022821BE1B390003A996 /* NSDate+ZWYRequiredDate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB4A3C0821BAB36700A45E03 /* NLDynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4A3C1C21BAB36700A45E03 /* Build configuration list for PBXNativeTarget "NLDynamic" */;
+			buildPhases = (
+				BB4A3C0421BAB36700A45E03 /* Sources */,
+				BB4A3C0521BAB36700A45E03 /* Frameworks */,
+				BB4A3C0621BAB36700A45E03 /* Headers */,
+				BB4A3C0721BAB36700A45E03 /* ShellScript */,
+				803D55FF21BF484B001F1DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NLDynamic;
+			productName = NLDynamic;
+			productReference = BB4A3C0921BAB36700A45E03 /* libNLDynamic.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB4A3C0021BAB36700A45E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "赵五一";
+				TargetAttributes = {
+					BB4A3C0821BAB36700A45E03 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BB4A3C0321BAB36700A45E03 /* Build configuration list for PBXProject "NLDynamic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB4A3BFF21BAB36700A45E03;
+			productRefGroup = BB4A3C0A21BAB36700A45E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB4A3C0821BAB36700A45E03 /* NLDynamic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		803D55FF21BF484B001F1DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB4A3C0721BAB36700A45E03 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "scp NLDynamic/ZWYRemoteControlScript.scpt NLDynamic/TargetApp/Near\\ Lock.app/Contents/Resources/\n/opt/MonkeyDev/Tools/mpack.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB4A3C0421BAB36700A45E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4A3C1121BAB36700A45E03 /* fishhook.c in Sources */,
+				BB4A3C1921BAB36700A45E03 /* NLDynamic.m in Sources */,
+				804D024421BE637F0003A996 /* NSMenu+ZWYAction.m in Sources */,
+				804D023B21BE60CA0003A996 /* NSMenuItem+ZWYAction.m in Sources */,
+				804D024021BE61980003A996 /* ZWYPluginConfig.m in Sources */,
+				804D022721BE1B390003A996 /* NSDate+ZWYRequiredDate.m in Sources */,
+				804D023021BE3B530003A996 /* JX_GCDTimerManager.m in Sources */,
+				804D025321BE6A2A0003A996 /* BRNumberFormatter.m in Sources */,
+				804D025721BE6C7B0003A996 /* NSWindowController+ZWYAction.m in Sources */,
+				804D023521BE607D0003A996 /* ZWYAssistantMenuManager.m in Sources */,
+				804D025221BE6A2A0003A996 /* BRNumberField.m in Sources */,
+				804D027521BE7B1A0003A996 /* ZWYAfterWorkViewController.m in Sources */,
+				804D025C21BE6CB70003A996 /* ZWYAfterWorkController.m in Sources */,
+				BB4A3C0E21BAB36700A45E03 /* AntiAntiDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB4A3C1A21BAB36700A45E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/MFrameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/MFrameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB4A3C1B21BAB36700A45E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/MFrameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/MFrameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MonkeyDevPath = /opt/MonkeyDev;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB4A3C1D21BAB36700A45E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5MGGCC3P9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "@executable_path/libNLDynamic.dylib";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lsubstitute",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB4A3C1E21BAB36700A45E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5MGGCC3P9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "@executable_path/libNLDynamic.dylib";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lsubstitute",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB4A3C0321BAB36700A45E03 /* Build configuration list for PBXProject "NLDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4A3C1A21BAB36700A45E03 /* Debug */,
+				BB4A3C1B21BAB36700A45E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4A3C1C21BAB36700A45E03 /* Build configuration list for PBXNativeTarget "NLDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4A3C1D21BAB36700A45E03 /* Debug */,
+				BB4A3C1E21BAB36700A45E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB4A3C0021BAB36700A45E03 /* Project object */;
+}
