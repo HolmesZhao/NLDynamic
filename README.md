@@ -27,7 +27,7 @@
 * Xcode 10
 * macOS Mojave
 * Near Lock macOS APP 5.0
-* Near Lock iOS APP 5.0
+* Near Lock iOS APP 5.0  (需要自己重签名)
 
 ## 代码
 
