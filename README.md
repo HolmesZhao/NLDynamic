@@ -42,8 +42,8 @@
   * `ddf` 距离差 用于保证计算不失误
 
 * 本来有写点击下班提醒那个按钮就弹出一个窗口, 进行管理这些参数, 但是这个逆向没到位, 不知道为什么在这个 `APP` 上除了 `Alert` 都不能弹出, 其中包括我写好的本地通知, 以及下图窗口, 如果有哪位大神看到, 麻烦帮忙看下, 对于 macOS 开发不怎么了解
-
 ![image](https://user-images.githubusercontent.com/19728934/49784583-c6428e00-fd58-11e8-8513-b298dc52fe45.png)
 
+* 最后, 我使用的 `macOS` 和 `iOS` 版本的 `Near Lock` 的 `APP` 都已经上传在 `GitHub`, `iOS` 的在 `iOS APP` 目录下, `macOS` 的在 `Target APP` 目录下
 
 
